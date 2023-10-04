@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 페이지 제목</title>
+    <link rel="stylesheet" href="/yu/write.css">
+    <link rel="stylesheet" href="/yu/styles.css">
+    <!-- Bootstrap CSS는 더이상 사용하지 않음 -->
+</head>
+<body>
+    <%- include('nav.ejs')%>
+    <form class="form-box" action="/add" method="POST">
+        <h4>글쓰기</h4>
+        <!-- 사용자가 입력한 제목을 서버로 전송하기 위한 input 필드 -->
+        <input type="text" name="title" placeholder="제목">
+        <!-- 사용자가 입력한 내용을 서버로 전송하기 위한 textarea 필드 -->
+        <textarea name="content" placeholder="내용"></textarea>
+        <button type="submit">전송</button>
+    </form> 
+</body>
+</html>

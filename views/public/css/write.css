@@ -1,0 +1,119 @@
+/* 전체 페이지 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* 배경색 추가 */
+}
+
+/* 상단바 스타일 */
+.topbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topbar .logo {
+  font-size: 24px;
+}
+
+.topbar .menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.topbar .menu ul li {
+  margin-right: 20px;
+}
+
+.topbar .menu ul li:last-child {
+  margin-right: 0;
+}
+
+.topbar .menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* 입력 필드 스타일 */
+.form-box input[type="text"],
+.form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: block; /* 입력 필드를 블록 요소로 표시하여 위아래 여백 추가 */
+}
+
+/* ... (나머지 CSS 코드) ... */
+
+
+/* 목록 스타일 */
+.post-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 목록 항목을 가운데 정렬 */
+}
+
+.post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px; /* 네모한 각을 동그랗게 만듦 */
+}
+
+.post h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* 글쓰기 폼 스타일 */
+.form-box {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.form-box h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-box input[type="text"],
+.form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-box button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

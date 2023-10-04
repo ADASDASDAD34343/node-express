@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+    <link rel="stylesheet" href="/yu/styles.css">
+</head>
+<body>
+    <%- include('nav.ejs') %>
+    <div class="content">
+        <h1 class="page-title">게시판</h1>
+        <ul class="post-list">
+            <% for (let post of 글목록) { %>
+                <li class="post">
+                    <h2 class="post-title"><%= post.title %></h2>
+                    <p class="post-content"><%= post.content %></p>
+                </li>
+            <% } %>
+        </ul>
+    </div>
+</body>
+</html>

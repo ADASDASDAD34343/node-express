@@ -1,0 +1,96 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* 로고 스타일 */
+/* 로고와 메뉴바 스타일 */
+.topbar {
+    background-color: black; /* 배경을 검은색으로 설정 */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.topbar .logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+/* 메뉴 스타일 */
+.topbar .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar .menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.topbar .menu ul li:last-child {
+    margin-right: 0;
+}
+
+.topbar .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.topbar .menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* 콘텐츠 스타일 */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 32px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 글 목록 스타일 */
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.post-content {
+    font-size: 16px;
+    color: #666;
+}
