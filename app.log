@@ -159,3 +159,4 @@
 2023-10-04 17:17:27 [info] 접속한 IP 주소: ::1
 2023-10-04 17:17:28 [info] 접속한 IP 주소: ::1
 2023-10-04 17:17:28 [info] 접속한 IP 주소: ::1
+2023-10-04 18:26:39 [error] DB 연결 실패 Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"

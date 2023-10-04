@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 8080;
+const port = 3000;
 const { MongoClient } = require('mongodb');
 const winston = require('winston');
 const bodyParser = require('body-parser');
@@ -39,7 +39,7 @@ app.use((req, res, next) => {
     next();
 });
 
-const url = 'MONGODB_URI';
+const url = process.env.MONGODB_URI;
 
 let db;
 
