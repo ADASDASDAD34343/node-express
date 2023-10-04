@@ -4,7 +4,7 @@ const port = 8080;
 const { MongoClient } = require('mongodb');
 const winston = require('winston');
 const bodyParser = require('body-parser');
-
+require('dotenv').config();
 // Winston 로그 설정
 const logOptions = {
     level: 'info',
@@ -39,7 +39,7 @@ app.use((req, res, next) => {
     next();
 });
 
-const url = 'mongodb+srv://wxcv3123:Cka9Ts6rg8ISgH9w@cluster0.x18a4ei.mongodb.net/?retryWrites=true&w=majority';
+const url = 'MONGODB_URI';
 
 let db;
 
