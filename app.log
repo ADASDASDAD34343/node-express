@@ -175,3 +175,5 @@
 2023-10-04 18:29:31 [info] 접속한 IP 주소: ::1
 2023-10-04 18:29:31 [info] 접속한 IP 주소: ::1
 2023-10-04 18:29:31 [info] 데이터베이스에서 목록을 성공적으로 가져옴
+2023-10-04 18:41:50 [error] DB 연결 실패 Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+2023-10-04 18:42:16 [error] DB 연결 실패 Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
